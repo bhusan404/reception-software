@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Reception Software</title>
+    <!-- Include CSS and JavaScript files -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="app.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Reception Software</h1>
+        <div id="appointment-form">
+            <!-- Form to schedule appointments -->
+            <h2>Schedule an Appointment</h2>
+            <input type="text" id="visitorName" placeholder="Visitor Name">
+            <input type="datetime-local" id="appointmentDate" placeholder="Appointment Date and Time">
+            <button onclick="scheduleAppointment()">Schedule</button>
+        </div>
+        <div id="visitor-list">
+            <!-- List of scheduled visitors -->
+            <h2>Scheduled Visitors</h2>
+            <ul id="visitorList">
+                <!-- Visitor list will be populated dynamically using JavaScript -->
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
